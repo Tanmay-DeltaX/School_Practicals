@@ -4,8 +4,8 @@ if ask==1:
     side = int(input("Enter the side of the square"))
     area = side**2
 elif ask==2:
-    base = int(input("Enter base of the number"))
-    height = int(input("Enter height of the number"))    
+    base = int(input("Enter base of the Triangle"))
+    height = int(input("Enter height of the Triangle"))    
     area = base*height/2
 
 print(area)    
